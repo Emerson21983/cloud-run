@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Saludo from './Components/Saludo';
+import Example from './Components/Example';
+import Timer from './Components/Timer';
+import DynamicTitle from './Components/DynamicTitle';
+import WelcomeMessage from './Components/WelcomeMessage';
+import BackgroundChange from './Components/BackgroundChange';
+import FormularioRegistro from './Components/FormularioRegistro';
+import Container from './Components/Container';
+import CounterApp from './Components/CounterApp';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import Usuarios from './Components/Usuarios';
+import Fetch from './Components/Fetch';
+import TodoList from './Components/TodoList';
+import AddTodo from './Components/AddTodo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Fetch />
   </React.StrictMode>
 );
 
